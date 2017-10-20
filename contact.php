@@ -29,19 +29,41 @@
 				</div> <!-- Ends Div Class Open Prompt -->
 			</div><!-- Ends Div Class Menu Toggler -->
 			<div id="mySidenav" class="sidenav">
-				<div class="menu-overlay">
-				</div><!-- Ends Div Class Menu Overlay -->
-				<a href="javascript:void(0)" class="closebtn" onclick="closeNavSlide()">&times;</a>
-				<div class="side-menu-items">
-					<h2>Menu</h2>
-					<a href="index.php">Home</a>
-					<a href="about.php">About</a>
-					<a href="mywork.php">My Work</a>
-					<a href="contact.php">Contact Me</a>
-					<a href="hireme.php">Hire Me</a>
-					<hr>
-					<!-- <a href="#">Website Build</a> -->
-				</div><!-- Ends Div Class Side Menu Items -->
+				
+				<div class="social-section">
+					<h2 class="menu-header">Menu</h2>
+					<div class="icon-section">
+						<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div> <!-- Ends Div Class Icon Section -->
+				</div> <!-- Ends Div Class Social Section -->
+
+				<div class="col-md-4 menu-left-section">
+					<img src="Images/brandinglight.png"><h4>D'Andr&eacute; <strong>PHILLIPS</strong></h4>
+					<h2>Other Ventures</h2>
+					<a href="#"><li>Website Build</li></a>
+					<a href="#"><li>The Blog</li></a>
+					<a href="#"><li>London Busman</li></a>
+					<a href="#"><li>Photography</li></a>
+				</div> <!-- Ends Column and Menu Left Section -->
+				<div class="col-md-4">
+					
+				</div> <!-- Ends Column -->
+				<div class="col-md-4 side-menu-items">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNavSlide()">&times;</a>
+					<div class="main-links">
+						<h2>Main Links</h2>
+						<a href="index.php">Home</a>
+						<a href="about.php">About</a>
+						<a href="mywork.php">My Work</a>
+						<a href="contact.php">Contact Me</a>
+						<a href="hireme.php">Hire Me</a>
+						<br>
+					</div> <!-- Ends Div Class Main Links -->
+
+				</div> <!-- Ends Div Class Column and Side Menu Items -->
 				<div class="footnotes">
 					<span class="footnote-sp"> &copy;  <?php echo date("Y"); ?> Portfolio 4.0 by D'Andr&eacute; T Phillips </span>
 				</div><!-- Ends Div Class Footnotes -->

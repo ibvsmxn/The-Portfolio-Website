@@ -1,3 +1,4 @@
+
 <html>
 	<head>
 		<title>ABOUT | D'Andr&eacute; Phillips </title>
@@ -8,20 +9,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="style.css" type="text/css" rel="stylesheet" />
 		<link rel="stylesheet" href="FontAwesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="AnimateCSS/animate.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-		<link rel="shortcut icon" href="/Images/Favicon3.ico" type="image/x-icon" />
+		<script src="Angular/angular.min.js"></script>
+		<link rel="shortcut icon" href="Images/Favicon3.ico" type="image/x-icon" />
 		<link rel="icon" href="Images/Favicon3.ico" type="image/x-icon">
-		<script src="scripts/wow.min.js"></script>
+		<link rel="stylesheet" href="AnimateCSS/animate.css">
 		<script type="text/javascript" src="scripts/the-scripts.js"></script>
 	</head>
 	
-		
-
 	<body class="about-page">
-		<script>
-              new WOW().init();
-        </script>
 	<div class="background-div">
 	</div> <!-- Ends Div Background Div -->
 	<div class="background-tint">
@@ -38,19 +33,41 @@
 				</div> <!-- Ends Div Class Open Prompt -->
 			</div><!-- Ends Div Class Menu Toggler -->
 			<div id="mySidenav" class="sidenav">
-				<div class="menu-overlay">
-				</div><!-- Ends Div Class Menu Overlay -->
-				<a href="javascript:void(0)" class="closebtn" onclick="closeNavSlide()">&times;</a>
-				<div class="side-menu-items">
-					<h2>Menu</h2>
-					<a href="index.php">Home</a>
-					<a href="about.php">About</a>
-					<a href="mywork.php">My Work</a>
-					<a href="contact.php">Contact Me</a>
-					<a href="hireme.php">Hire Me</a>
-					<hr>
-					<!-- <a href="#">Website Build</a> -->
-				</div><!-- Ends Div Class Side Menu Items -->
+				
+				<div class="social-section">
+					<h2 class="menu-header">Menu</h2>
+					<div class="icon-section">
+						<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div> <!-- Ends Div Class Icon Section -->
+				</div> <!-- Ends Div Class Social Section -->
+
+				<div class="col-md-4 menu-left-section">
+					<img src="Images/brandinglight.png"><h4>D'Andr&eacute; <strong>PHILLIPS</strong></h4>
+					<h2>Other Ventures</h2>
+					<a href="#"><li>Website Build</li></a>
+					<a href="#"><li>The Blog</li></a>
+					<a href="#"><li>London Busman</li></a>
+					<a href="#"><li>Photography</li></a>
+				</div> <!-- Ends Column and Menu Left Section -->
+				<div class="col-md-4">
+					
+				</div> <!-- Ends Column -->
+				<div class="col-md-4 side-menu-items">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNavSlide()">&times;</a>
+					<div class="main-links">
+						<h2>Main Links</h2>
+						<a href="index.php">Home</a>
+						<a href="about.php">About</a>
+						<a href="mywork.php">My Work</a>
+						<a href="contact.php">Contact Me</a>
+						<a href="hireme.php">Hire Me</a>
+						<br>
+					</div> <!-- Ends Div Class Main Links -->
+
+				</div> <!-- Ends Div Class Column and Side Menu Items -->
 				<div class="footnotes">
 					<span class="footnote-sp"> &copy;  <?php echo date("Y"); ?> Portfolio 4.0 by D'Andr&eacute; T Phillips </span>
 				</div><!-- Ends Div Class Footnotes -->
@@ -66,8 +83,8 @@
 		</div> <!-- Ends Div Class Splash Screen Content -->
 	</div><!-- Ends Div ID Splash Screen -->
 	<div class="container">
-		<div class="top-section">
-			<a href="index.php"><img src="Images/brandinglight.png"><h4>D'Andr&eacute; <strong>PHILLIPS</strong></h4></a>
+		<div class="top-section" data-0p="background-color:rgba(0,0,0,0); margin-top:5vh;" data-5p="background-color:rgba(0,0,0,0); margin-top:0vh; padding-top:0px;" data-6p="background-color:rgba(0,0,0,1); margin-top:0vh; padding-top:10px;">
+			<a href="index.php"><img src="Images/brandinglight.png" data-0p="max-width:100px; margin-left:0px; margin-right:0px; margin-top:0px;" data-5p="max-width:50px; margin-left:15px; margin-right:15px; margin-top:-5px;"><h4>D'Andr&eacute; <strong>PHILLIPS</strong></h4></a>
 		</div><!-- Ends Div Class Top Section -->
 		<div class="cover-section col-xs-11 col-sm-8 col-md-6 col-lg-4">
 			<h1>Hello.</h1>
@@ -83,22 +100,21 @@
 <div class="row">
 	<div class="full-page introduce">
 		<div class="container">
-			<div class="col-md-6">
+			<div class="col-md-6 wow fadeInDown" data-wow-delay="1.5s">
 				<div class="content-text">
-					<h2>By the way, I don't think we've been properly introduced.</h2>
-					<h3>What's your name?</h3>
+					<h2 class="wow fadeInLeft" data-wow-delay="0.5s">By the way, I don't think we've been properly introduced.</h2>
+					<h3 class="wow fadeInRight" data-wow-delay="1.0s">What's your name?</h3>
 				</div>
 			</div> <!-- Ends Column -->
-			<div class="col-md-6">
-				<div class="content-text">
+			<div class="col-md-6 wow fadeInDown">
+				<div class="content-text-right">
 					<div ng-app="">
-					 
-					<p>Input something in the input box:</p>
-					<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
-					<h2>Hello {{name}}</h2>
-
-					</div>
-				</div> <!-- Ends Div Class Content Text -->
+					<input class="name-input" type="text" ng-model="name" placeholder="Enter name here">
+					<h2>Hello {{name}}.</h2>
+					<br>
+					<p>{{name}}, this is me trying out AngularJS, so please <strong>bear with me, okay?</strong></p>
+										</div>
+				</div> <!-- Ends Div Class Content Text Right -->
 			</div> <!-- Ends Column -->
 		</div> <!-- Ends Container -->
 	</div> <!-- Ends Div Class Full Page, Introduce -->
@@ -108,11 +124,11 @@
 	<div class="full-page about-me">
 		<div class="container">
 			<div class="col-md-6">
-				<img src="Images/celebrate.jpg">
+				<img class="wow fadeInLeft" src="Images/celebrate.jpg" data-wow-delay="1.5s">
 			</div> <!-- Ends Column -->
-			<div class="col-md-6">
-				<div ng-app="" class="content-text" >
-					<h2>Nice to meet you, {{name}}</h2>
+			<div class="col-md-6 wow fadeInRight " data-wow-delay="2.0s">
+				<div class="content-text fadeInRight" >
+					<h2>Nice to meet you.</h2>
 					<br>
 					<h3>Hi, I'm D'Andr&eacute;, but you already knew that, didn't you?</h3>
 					<hr>
@@ -128,15 +144,55 @@
 		</div> <!-- Ends Container -->
 	</div> <!-- Ends Div Class Full Page, About Me -->
 </div> <!-- Ends Div Class Row -->
-
-<footer>	
+<footer>
+	<script src="WOW-master/dist/wow.min.js"></script>
+	<script type="text/javascript" src="scripts/wow-js-init.js"></script>	
 	<div id="footer-notification" class="footer-notification">
 	<div class="container">
 		<span>Please note, this website is still incomplete. By continuing, you acknowledge that some feautres of this site may not yet work.</span>
 		<a href="javascript:void(0)" class="closeMsg" onclick="closeMsg()">Acknowledge & Dismiss</a>
 	</div> <!-- Ends Div Class Container -->
 	</div> <!-- Ends Div Class & ID Footer Notification -->
+	<script type="text/javascript" src="Skrollr/skrollr.min.js"></script>
+	<script type="text/javascript" src="scripts/skrollr-init.js"></script>
 
+	<div class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="Images/brandinglight.png"><span><h4>D'Andr&eacute; <strong>PHILLIPS</strong></h4>The Online Portfolio.</span>
+					
+				</div> <!-- Ends Column -->
+				<div class="col-md-2">
+					<h2>Main Links</h2>
+					<a href="index.php"><li>Home</li></a>
+					<a href="about.php"><li>About</li></a>
+					<a href="mywork.php"><li>My Work</li></a>
+					<a href="contact.php"><li>Contact Me</li></a>
+					<a href="hireme.php"><li>Hire Me</li></a>
+				</div> <!-- Ends Column -->
+				<div class="col-md-2">
+					<h2>Other Ventures</h2>
+					<a href="#"><li>Website Build</li></a>
+					<a href="#"><li>The Blog</li></a>
+					<a href="#"><li>London Busman</li></a>
+					<a href="#"><li>Photography</li></a>
+				</div> <!-- Ends Column -->
+				<div class="col-md-4">
+					<h2>Social Media</h2>
+					<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/ibvsmxn_/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<br>
+					<span class="footnote-sp"> &copy;  <?php echo date("Y"); ?> Portfolio 4.0 by D'Andr&eacute; T Phillips </span>
+				</div> <!-- Div Class Ends Column -->
+			</div> <!-- Ends Div Class Row -->
+			<div class="row">
+				<!-- <span class="footnote-sp"> &copy;  <?php echo date("Y"); ?> Portfolio 4.0 by D'Andr&eacute; T Phillips </span> -->
+			</div> <!-- Ends Div Class Row -->
+		</div> <!-- Ends Div Class Container -->
+	</div> <!-- Ends Div Class Footer Section -->
 </footer>
 
 </body>
